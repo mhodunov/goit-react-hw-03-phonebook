@@ -1,0 +1,39 @@
+.filterInput {
+  font-size: 12px;
+  font-weight: 500;
+  color: coral;
+
+  margin: 0px;
+  padding: 5px;
+  min-width: 230px;
+  max-width: 250px;
+
+  border: 1px solid coral;
+  border-radius: 5px;
+
+  transition: all linear 300ms;
+}
+
+.filterInput:hover,
+.filterInput:focus {
+  padding: 10px;
+  font-size: 14px;
+  border: none;
+  background-color: coral;
+  color: white;
+  outline: none;
+}
+
+.filterLabel {
+  font-size: 18px;
+  font-weight: 500;
+  color: coral;
+  display: block;
+  padding-top: 30px;
+  padding-left: 15px;
+}
+
+.filterSpan {
+  display: inline-block;
+  width: 200px;
+}

@@ -1,0 +1,94 @@
+.notification {
+  font-size: 18px;
+  font-weight: 500;
+  color: red;
+  list-style: none;
+  padding: 0;
+  padding-left: 15px;
+  margin: 0;
+}
+
+.contactList {
+}
+
+.contactName {
+  padding: 0;
+  margin: 0;
+
+  font-size: 18px;
+  font-weight: 500;
+  color: white;
+}
+
+.contactNumber {
+  margin-top: 10px;
+  margin-bottom: 0;
+  padding: 0;
+
+  font-size: 16px;
+  font-weight: 500;
+  color: white;
+
+  transition: all linear 300ms;
+}
+
+.contactButton {
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 400;
+
+  border: 1px solid coral;
+  border-radius: 5px;
+  background-color: #fff;
+  color: coral;
+
+  transition: all linear 300ms;
+}
+
+.contactButton:hover,
+.contactButton:focus {
+  color: white;
+  border: 1px solid red;
+  background-color: red;
+  cursor: pointer;
+  outline: none;
+
+  transition: all linear 300ms;
+}
+
+.contactItem {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+
+  border: 1px solid coral;
+  border-radius: 5px;
+  background-color: coral;
+  transition: all linear 300ms;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contactItem:hover {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  transition: all linear 300ms;
+}
+
+.contactItem:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+.contactItem:hover .contactNumber {
+  font-size: 18px;
+  transition: all linear 300ms;
+}
